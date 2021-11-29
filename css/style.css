@@ -34,6 +34,13 @@ ul{
 table{
   margin: 0 auto;;
 }
+nav{
+  padding: 2em;
+  position: absolute;
+right: 0;
+  left:  45em;
+  width: 15em;
+}
 .top-container{
   background-color: #D1E8E4;
   height: 50em;
@@ -53,7 +60,7 @@ table{
 
 }
 .my-picture{
-  padding:0 15% 0 15%;
+  padding:10% 15% 0 15%;
   height: 20em;
   width: 20em;
 
@@ -134,6 +141,33 @@ margin-right: 200em;
 }
 
 .btn1:hover {
+  background: #18ddf7;
+  background-image: -webkit-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -moz-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -ms-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -o-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: linear-gradient(to bottom, #18ddf7, #41a9b5);
+  text-decoration: none;
+}
+.btn2 {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -moz-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -ms-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -o-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: linear-gradient(to bottom, #0099ff, #2f6b91);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-right: 0.8em;
+}
+
+.btn2:hover {
   background: #18ddf7;
   background-image: -webkit-linear-gradient(top, #18ddf7, #41a9b5);
   background-image: -moz-linear-gradient(top, #18ddf7, #41a9b5);
