@@ -1,10 +1,144 @@
 
-  body {background-color: #EAF6F6;}
+  body {background-color: #EAF6F6;
+  text-align: center;
+  margin:0;
+  background-color: #FDFAF6;
+  position: relative;
+font-family: 'Merriweather', serif;}
   hr{background-color: #EAF6F6;
   border-style: dotted none none ;/*loula lil top ilthaniya lil louta w thelthe lilajnab*/
 height: 0px;
 width: 5%;
 border-color: grey;
-border-width:5px; }
-h1{color:#66BFBF;}
-h3{color:#66BFBF;}
+border-width:5px;
+margin: 3em auto 3em auto;}
+h1{color:#66BFBF;
+font-family: 'Sacramento', cursive;
+padding-bottom: 2em;
+}
+h3{color:#66BFBF;
+padding-bottom: 2em;}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+a:hover{
+  color: #79B4B7;
+}
+ul{
+  line-height: 2;
+  width: 20em;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+table{
+  margin: 0 auto;;
+}
+.top-container{
+  background-color: #D1E8E4;
+  height: 50em;
+}
+.middle-container{
+  height: 50em;
+
+}
+.bottom-container{
+  height: 7em;
+  background-color: #344CB7;
+  position: absolute;
+  top: 160em;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+}
+.my-picture{
+  padding:0 15% 0 15%;
+  height: 20em;
+  width: 20em;
+
+}
+.btn {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -moz-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -ms-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -o-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: linear-gradient(to bottom, #0099ff, #2f6b91);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #18ddf7;
+  background-image: -webkit-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -moz-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -ms-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -o-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: linear-gradient(to bottom, #18ddf7, #41a9b5);
+  text-decoration: none;
+}
+.faza{  margin:0;
+  padding: 3% 0 5% 70%;}
+  .tis{
+    padding-top: : 5em;
+     height:10em;
+      width: 10em;
+  }
+  .falcon{
+    width: 40em;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-left: 2em;
+    height: 10em
+  }
+  .img-falc{
+    height:10em;
+     width: 10em;
+     float: left;
+     margin-left: 3em;
+
+  }
+  .copy{
+    color: #F7F7F7;
+    font-size: 0.75rem;
+    padding:0;
+    margin: 0;
+}
+.bye{
+  line-height: 1;
+  font-size: 0,2em;
+}
+.btn1 {
+  background: #0099ff;
+  background-image: -webkit-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -moz-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -ms-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: -o-linear-gradient(top, #0099ff, #2f6b91);
+  background-image: linear-gradient(to bottom, #0099ff, #2f6b91);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+margin-right: 200em;
+}
+
+.btn1:hover {
+  background: #18ddf7;
+  background-image: -webkit-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -moz-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -ms-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: -o-linear-gradient(top, #18ddf7, #41a9b5);
+  background-image: linear-gradient(to bottom, #18ddf7, #41a9b5);
+  text-decoration: none;
+}
